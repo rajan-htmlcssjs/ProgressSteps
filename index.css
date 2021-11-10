@@ -34,7 +34,7 @@ body {
   left: 0;
   transform: translateY(-50%);
   height: 4px;
-  width: 50%;
+  width: 0%;
   z-index: -1;
   transition: 0.4s ease;
 }
@@ -51,7 +51,7 @@ body {
   z-index: -1;
   transition: 0.4s ease;
 }
-.cicle {
+.circle {
   background-color: #fff;
   color: #999;
   border: 2px solid var(--line-border-empty);
@@ -64,7 +64,7 @@ body {
   transition: 0.4s ease-in;
 }
 
-.cicle.active {
+.circle.active {
   border-color: var(--line-border-fill);
 }
 .btn {
